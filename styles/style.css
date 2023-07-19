@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+}
+
+.site-header {
+  border-top: 2px solid #dfe9f5;
+  border-bottom: 2px solid #aec7e2;
+  min-height: 48px;
+  position: relative;
+  background: #dfe9f5;
+  font-family: 'Spectral SC', serif;
+  line-height: 25px;
+  padding-top: 8px;
+}
+
+.site-header a {
+  color: black;
+  text-decoration: none;
+  line-height: 20px;
+  background: #dfe9f5;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.site-name {
+  float: left;
+  font-size: 25px;
+  font-family: 'Spectral SC', serif;
+  padding-top: 8px;
+}
+
+.site-nav {
+  float: right;
+  font-family: 'Spectral SC', serif;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+@media screen and (min-width: 1000px) {
+  .site-header {
+    padding-right: 27.5%;
+  }
+  .site-nav a {
+    padding-left: 20px;
+  }
+  .site-name {
+    padding-left: 27.5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .site-header a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .site-nav {
+    float: none;
+	text-align: center;
+	padding-bottom: 12px;
+  }
+  .site-name {
+    float: none;
+	text-align: center;
+  }
+}
+  
+main {
+  padding-top: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 40px;
+}
+h1 {
+  font-size: 24px;
+  font-family: 'Spectral', serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+h2 {
+  font-size: 20px;
+  font-family: 'Spectral', serif;
+  color: #000000;
+  background-color: #ffffff;
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 18px;
+  font-family: 'Spectral', serif;
+  color: #000000;
+  background-color: #ffffff;
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+p {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+footer {
+  font-size: 14px;
+  font-family: 'Spectral', serif;
+  color: #000000;
+  background-color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10px;
+}
+.link {
+  color: #000000;
+  text-decoration: underline;
+}
+.profile-img {
+  float: left;
+  margin-right: 30px;
+  margin-left: 0px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.right-side-img {
+  float: right;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
