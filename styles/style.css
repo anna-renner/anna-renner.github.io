@@ -1,7 +1,6 @@
 body {
   margin: 0px;
 }
-
 .site-header {
   border-top: 2px solid #dfe9f5;
   border-bottom: 2px solid #aec7e2;
@@ -12,35 +11,30 @@ body {
   line-height: 25px;
   padding-top: 8px;
 }
-
 .site-header a {
   color: black;
   text-decoration: none;
   line-height: 20px;
   background: #dfe9f5;
 }
-
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+/* Style the logo link (we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .site-name {
   float: left;
   font-size: 25px;
   font-family: 'Spectral SC', serif;
   padding-top: 8px;
 }
-
 .site-nav {
   float: right;
   font-family: 'Spectral SC', serif;
   font-size: 18px;
   padding-top: 8px;
 }
-
 .site-nav a:hover {
   text-decoration: underline;
   color: black;
 }
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1500px) {
   .site-header {
     padding-right: 27.5%;
   }
@@ -51,8 +45,7 @@ body {
     padding-left: 27.5%;
   }
 }
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   .site-header a {
     float: none;
     display: block;
@@ -68,7 +61,6 @@ body {
 	text-align: center;
   }
 }
-  
 main {
   padding-top: 30px;
   padding-left: 20%;
@@ -76,7 +68,7 @@ main {
   padding-bottom: 40px;
 }
 h1 {
-  font-size: 24px;
+  font-size: 25px;
   font-family: 'Spectral', serif;
   color: #000000;
   background-color: #ffffff;
@@ -87,7 +79,7 @@ h2 {
   color: #000000;
   background-color: #ffffff;
   padding-top: 6px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 h3 {
   font-size: 18px;
@@ -95,14 +87,21 @@ h3 {
   color: #000000;
   background-color: #ffffff;
   padding-top: 6px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 p {
   font-size: 17px;
   font-family: 'Spectral', serif;
   color: #000000;
   background-color: #ffffff;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+}
+ul {
+  font-size: 15px;
+  font-family: 'Spectral', serif;
+  color: #000000;
+  background-color: #ffffff;
+  padding-bottom: 0px;
 }
 footer {
   font-size: 14px;
@@ -112,6 +111,7 @@ footer {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .link {
   color: #000000;
