@@ -30,19 +30,19 @@ body {
   font-size: 18px;
   padding-top: 8px;
 }
-.site-nav a:hover {
-  text-decoration: underline;
-  color: black;
-}
 @media screen and (min-width: 1500px) {
   .site-header {
     padding-right: 27.5%;
   }
+  .site-name {
+    padding-left: 27.5%;
+  }
   .site-nav a {
     padding-left: 20px;
   }
-  .site-name {
-    padding-left: 27.5%;
+  .site-nav a:hover {
+    text-decoration: underline;
+	color: black;
   }
 }
 @media screen and (max-width: 1500px) {
@@ -55,6 +55,8 @@ body {
     float: none;
 	text-align: center;
 	padding-bottom: 12px;
+	text-decoration: underline;
+	color: black;
   }
   .site-name {
     float: none;
