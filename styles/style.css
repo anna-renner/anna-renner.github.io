@@ -30,12 +30,12 @@ body {
   font-size: 18px;
   padding-top: 8px;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1300px) {
   .site-header {
-    padding-right: 27.5%;
+    padding-right: 20%;
   }
   .site-name {
-    padding-left: 27.5%;
+    padding-left: 25%;
   }
   .site-nav a {
     padding-left: 20px;
@@ -45,7 +45,7 @@ body {
 	color: black;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
   .site-header a {
     float: none;
     display: block;
